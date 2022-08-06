@@ -208,6 +208,7 @@
   .left_banner{
     z-index: 2;
   }
+
   .banner:before{
     position: absolute;
     content: "";
@@ -246,5 +247,43 @@
     z-index: 0;
     transform: rotate(15deg);
   }
+
+  .banner_shape span{
+    position: absolute;
+    width: 235px;
+    height: 235px;
+    background: radial-gradient(#ffffff 2px, transparent 0px);
+    top: 28%;
+    right: 9%;
+    z-index: 1;
+    transform: rotate(256deg);
+    opacity: .4;
+    background-size: 20px 20px;
+  }
+  .banner_shadow{
+    position: absolute;
+    top: 276px;
+    background-color: #ffffff;
+    height: 161px;
+    width: 307px;
+    right: 309px;
+    z-index: 1;
+    opacity: 0.9;
+  }
+
+  .banner_shadow:after{
+    position: absolute;
+    content: "";
+    top: -35px;
+    left: 0px;
+    height: 35px;
+    width: 100%;
+    background-color: white;
+    opacity: .6;
+    box-shadow: 1px -6px 14px white;
+  }
+
+  
+
  
 
