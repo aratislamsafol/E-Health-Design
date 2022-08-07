@@ -224,6 +224,7 @@
   }
   .banner_img{
     margin-top: 19%;
+    position: relative;
   }
   .banner_img img{
     z-index: 2;
@@ -262,13 +263,14 @@
   }
   .banner_shadow{
     position: absolute;
-    top: 276px;
+    top: 10%;
     background-color: #ffffff;
     height: 161px;
     width: 307px;
-    right: 309px;
+    left: 50%;
     z-index: 1;
     opacity: 0.9;
+    transform: translate(-50%, 0);
   }
 
   .banner_shadow:after{
