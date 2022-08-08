@@ -70,6 +70,10 @@
         opacity: 0;
     }
 
+    .achivement_card{
+      margin-top: 30px;
+    }
+
 }
 
  /* Small devices (landscape phones, 576px and up) */
@@ -135,6 +139,10 @@
         opacity: .4;
         background-size: 9px 9px;
         opacity: 0;
+    }
+
+    .achivement_card{
+      margin-top: 30px;
     }
  }
 
@@ -218,6 +226,10 @@
         transform: rotate(244deg);
         opacity: .4;
         background-size: 9px 9px;
+    }
+
+    .achivement_card{
+      margin-top: 30px;
     }
 
  }
