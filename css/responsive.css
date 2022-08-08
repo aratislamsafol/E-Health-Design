@@ -56,6 +56,20 @@
         margin-top: 30px;
       }
 
+      .about_us .about_shape span{
+        position: absolute;
+        width: 170px;
+        height: 170px;
+        background: radial-gradient(#1ABC9C 2px, transparent 0px);
+        top: 10%;
+        left: 65%;
+        z-index: -1;
+        transform: rotate(244deg);
+        opacity: .4;
+        background-size: 9px 9px;
+        opacity: 0;
+    }
+
 }
 
  /* Small devices (landscape phones, 576px and up) */
@@ -108,6 +122,20 @@
       .hc-service-box1,.hc-service-box3,.hc-service-box2{
         margin-top: 30px;
       }
+
+      .about_us .about_shape span{
+        position: absolute;
+        width: 170px;
+        height: 170px;
+        background: radial-gradient(#1ABC9C 2px, transparent 0px);
+        top: 10%;
+        left: 65%;
+        z-index: -1;
+        transform: rotate(244deg);
+        opacity: .4;
+        background-size: 9px 9px;
+        opacity: 0;
+    }
  }
 
  /* Medium devices (tablets, 768px and up) */
@@ -179,6 +207,19 @@
       .hc-service-box1,.hc-service-box3{
         margin-top: 40px;
       }
+      .about_us .about_shape span{
+        position: absolute;
+        width: 170px;
+        height: 170px;
+        background: radial-gradient(#1ABC9C 2px, transparent 0px);
+        top: 10%;
+        left: 65%;
+        z-index: -1;
+        transform: rotate(244deg);
+        opacity: .4;
+        background-size: 9px 9px;
+    }
+
  }
 
  /* Large devices (desktops, 992px and up) */
@@ -206,6 +247,15 @@
     width: 70px;
     background-color: #1ABC9C;
     }
+
+    .about_us .image img{
+      margin-right: 50px;
+    }
+
+    .about_content{
+      margin-top: 15%;
+      margin-left: 14%;
+    }
  }
 
  /* Extra large devices (large desktops, 1200px and up) */
@@ -221,5 +271,8 @@
     }
     .top_right{
     float: right;
+    }
+    .about_content{
+      margin-top: 12%;
     }
  }

@@ -408,8 +408,61 @@
 
   /* About Us */
   .about_us{
+    background-color: #FFFAF9;
     margin-top: 70px;
   }
+  .about_us .image{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .about_us .image img{
+    border-radius: 60% 10% 70% 60%/170% 80% 32% 40%;
+  }
+  .about_title{
+    font-weight: 700;
+    font-size: 21px;
+    color: #1ABA9A;
+  }
+  .about_content h1{
+    font-weight: 900;
+  }
+  .nav-pills .nav-link{
+    font-weight: 700;
+    font-size: 18px;
+    position: relative;
+    color:rgb(39, 39, 39);
+  }
+  .nav-pills .nav-link.active:after{
+    position: absolute;
+    content: "";
+    border:1px solid rgb(219, 117, 117);
+    width: 60%;
+    margin-left: 15px;
+    bottom:0;
+    left:0;
+  }
+
+  .about_us{
+    position: relative;
+    z-index: 2;
+  }
+  .about_us .image img{
+    z-index: 2;
+    
+  }
+  .about_us .about_shape span{
+    position: absolute;
+    width: 145px;
+    height: 145px;
+    background: radial-gradient(#e17979 2px, transparent 0px);
+    top: 65%;
+    left: 13%;
+    z-index: -1;
+    transform: rotate(244deg);
+    opacity: .4;
+    background-size: 8px 8px;
+  }
+  
 
 
 
