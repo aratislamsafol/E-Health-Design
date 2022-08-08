@@ -46,15 +46,16 @@
 .appointment .modal-body{
     /* margin:0 auto; */
 }
-.appointment .modal-body input{
+/* .appointment .modal-body input{
     border-radius: 25px;
     border:1px solid rgb(212, 210, 210);
-}
+} */
 .contact_box input,.contact_box textarea{
     width: 95%;
     padding:12px;
     margin: 3%;
-
+    border-radius: 25px;
+    border:1px solid rgb(212, 210, 210);
 }
 .contact_box textarea{
     border-radius: 10px;
@@ -534,21 +535,29 @@
   margin:3px;
   transition: .3s;
 }
+.cards .social_icon i{
+  color:rgb(46, 46, 46);
+  border-radius: 100%;
+  border:1px solid rgb(238, 232, 232);
+  padding:8px;
+  transition: .3s;
+}
 
-.card_product .social_icon .fa-facebook-f{
+
+.card_product .social_icon .fa-facebook-f,.cards .social_icon .fa-facebook-f{
   padding: 8px 11px;
   color:#1877F2;
 }
 
-.card_product .social_icon .fa-twitter{
+.card_product .social_icon .fa-twitter,.cards .social_icon .fa-twitter{
   color:#1DA1F2;
 }
 
-.card_product .social_icon .fa-phone{
+.card_product .social_icon .fa-phone,.cards .social_icon .fa-phone{
   color:rgb(106, 204, 191);
 }
 
-.card_product .social_icon i:hover{
+.card_product .social_icon i:hover,.cards .social_icon i:hover{
   color: #e17979;
   box-shadow: 2px 2px 2px 2px #e17979;
   transition: .3s;
@@ -669,15 +678,107 @@
   border-radius: 5%;
 }
 
+.contact{
+  margin-top:256px;
+}
+.contact_title{
+  margin-bottom: 16px;
+}
+.contact_title h5,.blog_header h5{
+  font-weight: 700;
+  color: #1ABC9C;
+}
+.contact_title h1,.blog_header h1{
+  font-weight: 800;
+  color: #323332;
+}
+.contact_boxs input,.contact_boxs textarea{
+  width: 95%;
+  padding:12px;
+  border-radius: 25px;
+  border:1px solid rgb(212, 210, 210);
+}
+.contact_boxs textarea{
+  border-radius: 10px;
+  border:1px solid rgb(212, 210, 210);
+  height: 140px;
+}
+.contact_boxs button{
+  margin-left: 3%;
+  border-radius: 20px;
+  padding: 8px 40px;
+  border:1px solid #f88e6e;
+  background-color: #FD9678;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+}
+.contact_boxs label{
+  font-size: 17px;
+  font-weight: 500;
+  color: #454645;
+}
 
+/* Blog */
+.blog{
+  background-color: #FFFAF9;
+  margin-top: 100px;
+}
 
+.blog_header{
+  margin-top: 80px;
+}
 
+.cards{
+  position: relative;
+}
 
+.cards img{
+  border-radius: 12px;
+}
 
+.hc-service-boxx{
+  position: absolute;
+  top: 130px;
+  transition: .3s;
+  width: 84%;
+  margin: 0 auto;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: white;
+  border-radius: 11px;
+}
 
+.hc-service-boxx:hover{
+  border-radius: 11px;
+  transition: .3s;
+  box-shadow: 3px 3px 0 5px #f3e3de;
+}
 
+.cards .date{
+  margin-top: 8px;
+}
+.read_more a{
+  font-size: 17px;
+  margin-top: 10px;
+  color: #e17979;
+  text-decoration: none;
+}
+.read_more{
+  transition:.4s;
+  cursor: pointer;
+}
+.read_more:hover{
+  letter-spacing: 3px;
+  transition:.4s;
+}
+.blog_content{
+  transition:.4s;
+}
+.blog_content:hover{
+  color:#e17979;
+  transition:.4s;
+}
 
-
-
- 
+/* Carosul */
 

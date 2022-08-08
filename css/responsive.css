@@ -3,7 +3,21 @@
     padding: 0;
 }
  /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
+@media(max-width: 394px){
+  .contact{
+    margin-top: 1326px;
+  }
+
+  .contact_boxs{
+    margin-top: 20px;
+  }
+
+  .cards{
+    margin-top: 70px;
+  }
+
+}
+@media(min-width: 395px) and (max-width: 575.98px)  { 
 
     .banner:after{
         display: none;
@@ -72,6 +86,14 @@
 
     .achivement_card{
       margin-top: 30px;
+    }
+
+    .contact{
+      margin-top: 1351px;
+    }
+
+    .contact_boxs{
+      margin-top: 20px;
     }
 
 }
@@ -143,6 +165,14 @@
 
     .achivement_card{
       margin-top: 30px;
+    }
+
+    .contact{
+      margin-top: 1361px;
+    }
+
+    .contact_boxs{
+      margin-top: 20px;
     }
  }
 
@@ -231,7 +261,13 @@
     .achivement_card{
       margin-top: 30px;
     }
+    .contact{
+      margin-top: 643px;
+    }
 
+    .contact_boxs{
+      margin-top: 20px;
+    }
  }
 
  /* Large devices (desktops, 992px and up) */
