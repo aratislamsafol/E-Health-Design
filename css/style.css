@@ -757,6 +757,7 @@
 
 .cards .date{
   margin-top: 8px;
+  padding-bottom: 0px;
 }
 .read_more a{
   font-size: 17px;
@@ -779,6 +780,124 @@
   color:#e17979;
   transition:.4s;
 }
+.blog_content h5{
+  font-size: 21px;
+}
 
-/* Carosul */
+/* Testimonial */
+.testimonials{
+  margin-top: 61px;
+}
+
+/* Carosel */
+.carousel{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 30px;
+}
+.owl-dots{
+  text-align: center;
+  margin-top: 40px;
+}
+.owl-dot{
+  height: 15px;
+  width: 45px;
+  margin: 0 5px;
+  outline: none;
+  border-radius: 14px;
+  border: 2px solid #0072bc!important;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+.owl-dot.active,
+.owl-dot:hover{
+  background: #0072bc!important;
+}
+/* Testimonial Card */
+.card_body_main{
+  margin-top: 40px;
+}
+.carousel .card{
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  border: 1px solid rgb(203, 207, 203);
+  /* overflow: visible; */
+  position: relative;
+  transition: .4s;
+}
+
+.card:hover{
+  border: 1px solid #e17979;
+  transition: .4s;
+}
+
+.card .slider_image{
+  position: absolute;
+  top:-30px;
+  left: 50%;
+  transform: translate(-50%,0);
+  width: 80px;
+  border:3px solid rgb(247, 243, 243);
+  border-radius: 100%;
+}
+.card .slider_image img{
+  border-radius: 100%;
+  
+}
+.card_body_main .card p{
+  margin-top: 50px;
+}
+.card_body_main .card h6{
+  color: #e17979;
+}
+.footer{
+  margin-top: 80px;
+  background-color: #1ABC9C;
+  padding-bottom: 50px;
+}
+.footer_logo{
+  margin-top: 5%;
+}
+.footer .office_add,footer .office_adds{
+  position: relative;
+  padding-right: 13px;
+}
+.footer .office_add:after{
+  position: absolute;
+  content: "";
+  height: 70px;
+  width: 1px;
+  background-color: white;
+  top: 10%;
+  right: 0;
+}
+
+.footer a{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  padding: 4px 0px 4px 0px;
+  font-weight: 600;
+  transition: .3;
+  position: relative;
+  padding-left: 20px;
+}
+.xx:after{
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: white;
+  width: 12px;
+  top: 16px;
+  left: 0;
+}
+.footer a:hover{
+  color:#3b3939;
+  transition: .3s;
+}
+.footer a:hover.xx:after{
+  background-color: #3b3939 !important;
+  transition: .3s;
+}
 

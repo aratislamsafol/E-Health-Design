@@ -51,4 +51,5 @@ $(document).ready(function(){
   });
 });
 
-// Carosol
+// slick js
+

@@ -13,7 +13,81 @@
   }
 
   .cards{
-    margin-top: 70px;
+    margin-top: 190px;
+  }
+
+  .cards .social_icon{
+    display: none;
+  }
+
+  .hc-service-boxx {
+    position: absolute;
+    top: 75px;
+    transition: .3s;
+    width: 84%;
+    margin: 0 auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: white;
+    border-radius: 11px;
+  }   
+
+
+  .banner .container{
+  padding-top: 0px;
+  z-index: 2;
+  }
+
+  .banner_title:after{
+    position: absolute;
+    content: "";
+    top:15px;
+    right:20%;
+    height: 2px;
+    width: 10%;
+    background-color: #1ABC9C;
+  }
+
+  .hc-service-box1,.hc-service-box3,.hc-service-box2{
+    margin-top: 30px;
+  }
+
+  .achivement_card{
+    margin-top: 30px;
+  }
+
+  /* Blog */
+  .cards_first_item{
+    margin-top: 4px;
+  }
+  .cards{
+    margin-top:58px;
+  }
+
+  .cards .items_one h6{
+    font-size: 14px;
+  }
+  .cards .items_one h5{
+   
+    font-size: 16px;
+  }
+
+  .date{
+    margin: 0;
+    padding: 0;
+  }
+  .read_more a{
+    font-size: 14px;
+  }
+
+  .footer .office_add:after{
+    position: absolute;
+    content: "";
+    height: 0px;
+    width: 0px;
+    background-color: white;
+    top: 10%;
+    right: 0;
   }
 
 }
@@ -96,6 +170,37 @@
       margin-top: 20px;
     }
 
+    /* Blog */
+  .cards_first_item{
+    margin-top: 4px !important;
+  }
+
+  .cards{
+    margin-top: 81px;
+  }
+
+  .hc-service-boxx {
+    position: absolute;
+    top: 67%;
+    transition: .3s;
+    width: 84%;
+    margin: 0 auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: white;
+    border-radius: 11px;
+  }
+
+.footer .office_add:after{
+  position: absolute;
+  content: "";
+  height: 0px;
+  width: 0px;
+  background-color: white;
+  top: 10%;
+  right: 0;
+  }
+
 }
 
  /* Small devices (landscape phones, 576px and up) */
@@ -174,6 +279,31 @@
     .contact_boxs{
       margin-top: 20px;
     }
+
+    .cards{
+      margin-top: 52px;
+    }
+
+    .hc-service-boxx {
+      position: absolute;
+      top: 74%;
+      transition: .3s;
+      width: 84%;
+      margin: 0 auto;
+      left: 50%;
+      transform: translate(-50%, 0);
+      background-color: white;
+      border-radius: 11px;
+  }
+  .footer .office_add:after{
+    position: absolute;
+    content: "";
+    height: 0px;
+    width: 0px;
+    background-color: white;
+    top: 10%;
+    right: 0;
+  }
  }
 
  /* Medium devices (tablets, 768px and up) */
@@ -268,6 +398,12 @@
     .contact_boxs{
       margin-top: 20px;
     }
+
+    .cards_last{
+      margin-top: 78px;
+    }
+
+
  }
 
  /* Large devices (desktops, 992px and up) */
@@ -303,6 +439,13 @@
     .about_content{
       margin-top: 15%;
       margin-left: 14%;
+    }
+
+    /* .cards .social_icon{
+      
+    } */
+    .testimonials{
+      margin-top: 131px;
     }
  }
 
